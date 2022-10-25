@@ -41,9 +41,6 @@ console.log (getLastName)
 
 //5.Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
 
-let numbers = [8, 5, 9];
-const result = numbers.every(function (i) {
-    return i > 0
-});
-
-console.log(result)
+let numbers = [8, 5, -9];
+const allNumbersPositive = (currentValue) => currentValue > 0;
+console.log(numbers.every(allNumbersPositive));
