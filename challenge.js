@@ -20,7 +20,7 @@ const convertDaysToAge = (days) => {
 
 console.log (convertDaysToAge(3650))
 
-// Write a function that takes three numbers and returns the largest of the three numbers.
+//3. Write a function that takes three numbers and returns the largest of the three numbers.
 const getLargestNumber = (num1, num2, num3) => {
     if ((num1 >= num2) && (num1 >= num3)){
         return num1;
@@ -31,3 +31,10 @@ const getLargestNumber = (num1, num2, num3) => {
     } 
 }
 console.log(getLargestNumber(4, 6, 8));
+
+//4. Write a function that takes an array of names and returns the last name from the array of names.
+let names = ["Charlie", "Rob", "Andy"]
+
+const getLastName = (names[names.length-1])
+
+console.log (getLastName)
